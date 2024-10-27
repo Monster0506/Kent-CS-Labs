@@ -64,6 +64,6 @@ The assignment contains two parts.
 
 ```
 
-    You can reuse your code from the Lab 3. Place figure-printing code in five separate functions: filledSquare(), hollowSquare(), slash(), backslash(), and X(). Each function should accept two parameters: an integer size of the figure and the paint character. The function should return no value (be a void-function). Create three separate files figures.cpp, figures.hpp, and figuresInput.cpp. Place the square, slash and X function definitions in figures.cpp and their prototypes in figures.hpp. Make sure that the header file is protected against multiple inclusion. Place the main function in figuresInput.cpp
+You can reuse your code from the Lab 3. Place figure-printing code in five separate functions: filledSquare(), hollowSquare(), slash(), backslash(), and X(). Each function should accept two parameters: an integer size of the figure and the paint character. The function should return no value (be a void-function). Create three separate files figures.cpp, figures.hpp, and figuresInput.cpp. Place the square, slash and X function definitions in figures.cpp and their prototypes in figures.hpp. Make sure that the header file is protected against multiple inclusion. Place the main function in figuresInput.cpp
 
 **Milestone:** Implement the BMR for women.Make sure your programs adhere to proper programming style. Submit your projects to the subversion repository. Do not forget to verify your submission on the web.
