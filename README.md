@@ -39,6 +39,9 @@ This repository hosts lab assignments from Kent State University's CS courses, o
   - **[Lab09](https://github.com/Monster0506/Kent-CS-Labs/tree/master/CS%20IB/Lab09)**
     - [Lab9_Game](https://github.com/Monster0506/Kent-CS-Labs/tree/master/CS%20IB/Lab09/Lab9_Game)
     - [Lab9_Test](https://github.com/Monster0506/Kent-CS-Labs/tree/master/CS%20IB/Lab09/Lab9_Test)
+  - **[Lab10](https://github.com/Monster0506/Kent-CS-Labs/tree/master/CS%20IB/Lab10)**
+    - [Lab10_TestList](https://github.com/Monster0506/Kent-CS-Labs/tree/master/CS%20IB/Lab10/Lab10_TestList)
+    - [Lab10_List](https://github.com/Monster0506/Kent-CS-Labs/tree/master/CS%20IB/Lab10/Lab10_List)
 
 ## Getting Started
 
