@@ -1,0 +1,17 @@
+Script started on 2024-11-21 14:04:04-05:00
+]0;user@wasp:~[user@wasp ~]$ g++ -o multiway multarrays.cpp 
+]0;user@wasp:~[user@wasp ~]$ ./multiway 
+enter operation [a/r/q] and character: a 3
+3 enter operation [a/r/q] and character: a 3
+Duplicate
+3 enter operation [a/r/q] and character: a 4 f
+3 f enter operation [a/r/q] and character: a f
+Duplicate
+3 f enter operation [a/r/q] and character: r f
+3 enter operation [a/r/q] and character: r f
+Not in list
+3 enter operation [a/r/q] and character: q d
+3 ]0;user@wasp:~[user@wasp ~]$ exit
+exit
+
+Script done on 2024-11-21 14:04:36-05:00
