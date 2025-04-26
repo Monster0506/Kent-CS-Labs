@@ -1,0 +1,6 @@
+10
+some 
+text 
+in 
+a 
+file
