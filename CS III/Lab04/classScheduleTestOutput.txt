@@ -1,0 +1,37 @@
+all students, dropouts removed and sorted
+first name last name: courses enrolled
+Andrew Turner:cs3 
+Betty Torres:cs1 
+Brian Sanchez:cs1 cs4 
+Catherine Morgan:cs2 
+Charles Martin:cs1 
+Craig Jackson:cs4 
+Cynthia Jenkins:cs1 cs3 
+David Collins:cs1 
+Doris Howard:cs1 
+Elizabeth Green:cs3 cs4 
+Elizabeth Jones:cs1 
+Gerald Edwards:cs1 cs2 cs3 cs4 
+John Jenkins:cs2 
+Jonathan Baker:cs1 
+Joyce Rodriguez:cs2 
+Juan Cox:cs1 cs4 
+Judy Miller:cs4 
+Julie Perry:cs2 
+Kathleen Anderson:cs1 cs3 
+Linda Johnson:cs1 cs2 
+Lori Walker:cs2 cs3 
+Louis Gray:cs4 
+Louis Harris:cs3 
+Maria Kelly:cs1 cs4 
+Marilyn Phillips:cs2 
+Mark Russell:cs1 cs2 cs4 
+Martin Taylor:cs1 
+Mary Price:cs1 
+Nicholas Peterson:cs4 
+Peter Hall:cs2 cs3 cs4 
+Peter Young:cs2 cs3 
+Rachel Peterson:cs2 
+Rachel Rivera:cs1 
+Stephanie Watson:cs1 
+Tina Ward:cs3 
