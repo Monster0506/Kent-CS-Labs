@@ -1,0 +1,54 @@
+file1.txt: 1: hello world!
+file2.txt: 1: hello world
+                         ^
+file1.txt: 3: hello worldd
+file2.txt: 3: hello worlddd
+                          ^
+file1.txt: 7: how was today?
+file2.txt: 7: how was your day?
+                      ^
+file1.txt: 9: whet is the date today?
+file2.txt: 9: what is the date?
+                ^
+file1.txt: 10: sadkfl
+file2.txt: 10: sadkfj
+                    ^
+file1.txt: 11: 
+file2.txt: 11: sdafsfsdfsf
+               ^
+file1.txt: 12: 
+file2.txt: 12: sadfjsdakjfbsakjdbfkjds
+               ^
+file1.txt: 13: cxmvbxcmv
+file2.txt: 13: 
+               ^
+file1.txt: 14: xcvxc
+file2.txt: 14: 
+               ^
+file1.txt: 15: eirwwer
+file2.txt: 15: 
+               ^
+file1.txt: 16: werwe
+file2.txt: 16: 
+               ^
+file1.txt: 17: werwewer
+file2.txt: 17: 
+               ^
+file1.txt: 18: werwe
+file2.txt: 18: 
+               ^
+file1.txt: 20: Hello
+file2.txt: 20: Hallo
+                ^
+file1.txt: 25: World????
+file2.txt: 25: World!
+                    ^
+file1.txt: 100: This is line 100
+file2.txt: 100: This is lne 100
+                         ^
+file1.txt: 101: This is line 101
+file2.txt: 101: 
+                ^
+file1.txt: 102: file1.txt is longer
+file2.txt: 102: 
+                ^
