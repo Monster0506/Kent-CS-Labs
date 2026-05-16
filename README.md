@@ -1,4 +1,4 @@
-﻿# Kent-CS-Labs
+# Kent-CS-Labs
 
 This repository hosts lab assignments from Kent State University's CS courses, organized by semester and course code. It includes labs for foundational programming skills, primarily in C++.
 
