@@ -7,3 +7,12 @@
 [submodule "CCN/CCN-Project-1"]
 	path = CCN/CCN-Project-1
 	url = https://github.com/AndrewRoddy/CCN-Project-1/
+[submodule "HIC/Kent-Date-Enough-HIC"]
+	path = HIC/Kent-Date-Enough-HIC
+	url = https://github.com/Monster0506/Kent-Date-Enough-HIC
+[submodule "HIC/SDES-NASM"]
+	path = HIC/SDES-NASM
+	url = https://github.com/Monster0506/SDES-NASM
+[submodule "HIC/HICPortfolio"]
+	path = HIC/HICPortfolio
+	url = https://github.com/Monster0506/HICPortfolio
