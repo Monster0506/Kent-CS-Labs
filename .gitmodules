@@ -1,0 +1,6 @@
+[submodule "OS/operatingSystemsAssignment1"]
+	path = OS/operatingSystemsAssignment1
+	url = https://github.com/monster0506/operatingSystemsAssignment1
+[submodule "OS/operatingSystemsAssignment2"]
+	path = OS/operatingSystemsAssignment2
+	url = https://github.com/monster0506/operatingSystemsAssignment2
