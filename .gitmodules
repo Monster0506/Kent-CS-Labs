@@ -16,3 +16,9 @@
 [submodule "HIC/HICPortfolio"]
 	path = HIC/HICPortfolio
 	url = https://github.com/Monster0506/HICPortfolio
+[submodule "Databases/DatabasesProject"]
+	path = Databases/DatabasesProject
+	url = https://github.com/Monster0506/DatabasesProject
+[submodule "Databases/DatabasesHomework4"]
+	path = Databases/DatabasesHomework4
+	url = https://github.com/Monster0506/DatabasesHomework4
