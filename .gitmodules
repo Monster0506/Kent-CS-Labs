@@ -22,3 +22,12 @@
 [submodule "Databases/DatabasesHomework4"]
 	path = Databases/DatabasesHomework4
 	url = https://github.com/Monster0506/DatabasesHomework4
+[submodule "Org/Regular-Expressions-in-Assembly"]
+	path = Org/Regular-Expressions-in-Assembly
+	url = https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+[submodule "Software/RollCall"]
+	path = Software/RollCall
+	url = https://github.com/SWE-Team-Bravo/RollCall
+[submodule "Org/Assembly-List-Parser"]
+	path = Org/Assembly-List-Parser
+	url = https://github.com/AndrewRoddy/Assembly-List-Parser
