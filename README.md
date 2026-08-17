@@ -4,8 +4,8 @@ This repository hosts lab assignments from Kent State University's CS courses, o
 
 ## Structure
 
+- Projects are likely linked as a submodule to the repo that owns that project.
 - Each folder corresponds to a course section with labs arranged sequentially.
-
   - Labs are organized by course.
   - Each lab contains a `README.md` file and associated `.cpp` source code.
 
