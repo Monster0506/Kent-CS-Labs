@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lecture 5: HTTP, Browsers and Servers | CS-44105 Web Programming I</title>
+</head>
+<body>
+  <!-- Site-wide navigation menu, identical on every page -->
+  <nav>
+    <h2>Site Menu</h2>
+    <ul>
+      <li><a href="lecture1.html">Lecture 1: Syllabus and Course Info</a></li>
+      <li><a href="lecture2.html">Lecture 2: Intro to Web Development</a></li>
+      <li><a href="lecture3.html">Lecture 3: Internet and Web Development</a></li>
+      <li><a href="lecture4.html">Lecture 4: Protocols, DNS and URLs</a></li>
+      <li><a href="lecture5.html">Lecture 5: HTTP, Browsers and Servers</a></li>
+      <li><a href="lab1.html">Hands-On Activities 1 and 2</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <header>
+      <h1>Lecture 5: URLs, HTTP, Web Browsers, and Web Servers</h1>
+      <p>CS-44105-001 - Web Programming I - Fall 2026</p>
+    </header>
+
+    <figure>
+      <img src="images/lecture5-worldwideweb.png" alt="A screenshot of WorldWideWeb, the first web browser, created by Tim Berners-Lee" title="WorldWideWeb, the very first web browser ever built" width="640">
+      <figcaption>WorldWideWeb, created by Tim Berners-Lee in 1990, was the first web browser and helped establish the client-server model still used today. (<a href="https://commons.wikimedia.org/wiki/File:WorldWideWeb.png">Source</a>)</figcaption>
+    </figure>
+
+    <p>Building on Lecture 4, Lecture 5 revisited <strong>URLs</strong> and explained how they are used in practice to request specific resources from a web server, then focused on <strong>HTTP</strong> (HyperText Transfer Protocol), the protocol browsers and servers use to communicate over the Internet.</p>
+
+    <p>We walked through the request-response cycle: a <strong>web browser</strong> (the client) sends an HTTP request to a server, specifying a method such as <code>GET</code> (retrieve a resource) or <code>POST</code> (submit data). The <strong>web server</strong> processes that request and sends back an HTTP response, which includes a status code (like <code>200 OK</code> or <code>404 Not Found</code>) and, usually, the requested content.</p>
+
+    <p>Finally, the lecture emphasized the complementary roles of browsers and servers: the browser is responsible for requesting, receiving, and rendering content for the user, while the server is responsible for storing resources and responding correctly to incoming requests. This request-response relationship is the backbone of how every website on the Internet works.</p>
+
+    <footer>
+      <p>Lecture 5 of 5 - CS-44105-001 Web Programming I - Fall 2026 - Instructor: Giovanni Villalobos Herrera, M.S.</p>
+    </footer>
+  </article>
+</body>
+</html>

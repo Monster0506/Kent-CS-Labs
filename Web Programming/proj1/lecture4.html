@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lecture 4: Protocols, DNS and URLs | CS-44105 Web Programming I</title>
+</head>
+<body>
+  <!-- Site-wide navigation menu, identical on every page -->
+  <nav>
+    <h2>Site Menu</h2>
+    <ul>
+      <li><a href="lecture1.html">Lecture 1: Syllabus and Course Info</a></li>
+      <li><a href="lecture2.html">Lecture 2: Intro to Web Development</a></li>
+      <li><a href="lecture3.html">Lecture 3: Internet and Web Development</a></li>
+      <li><a href="lecture4.html">Lecture 4: Protocols, DNS and URLs</a></li>
+      <li><a href="lecture5.html">Lecture 5: HTTP, Browsers and Servers</a></li>
+      <li><a href="lab1.html">Hands-On Activities 1 and 2</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <header>
+      <h1>Lecture 4: Internet Protocols, Domain Name System, and URLs</h1>
+      <p>CS-44105-001 - Web Programming I - Fall 2026</p>
+    </header>
+
+    <figure>
+      <img src="images/lecture4-datacenter.jpg" alt="Rows of server racks inside a data center" title="Servers in a data center, the kind of machines that DNS records ultimately point to" width="640">
+      <figcaption>Domain names are translated by DNS into the addresses of physical servers like these. (<a href="https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg">Source</a>)</figcaption>
+    </figure>
+
+    <p>Lecture 4 covered the rules and systems that let computers on the Internet actually understand one another. An <strong>Internet protocol</strong> is an agreed-upon set of rules for formatting and transmitting data, such as the <strong>TCP/IP</strong> suite that governs how data is broken into packets, addressed, and delivered across the network.</p>
+
+    <p>We then covered the <strong>Domain Name System (DNS)</strong>, which acts like a phone book for the Internet. Every server has a numeric IP address, but humans use readable domain names instead (like <code>kent.edu</code>). DNS servers translate a domain name into its corresponding IP address so a browser knows exactly which server to contact.</p>
+
+    <p>Finally, the lecture broke down the anatomy of a <strong>URL</strong> (Uniform Resource Locator): the scheme (such as <code>https</code>), the domain name, an optional port, the path to a specific resource, and optional query parameters or a fragment. Together, protocols, DNS, and URLs are what let a browser find and retrieve exactly the right page from anywhere on the Internet.</p>
+
+    <footer>
+      <p>Lecture 4 of 5 - CS-44105-001 Web Programming I - Fall 2026 - Instructor: Giovanni Villalobos Herrera, M.S.</p>
+    </footer>
+  </article>
+</body>
+</html>
