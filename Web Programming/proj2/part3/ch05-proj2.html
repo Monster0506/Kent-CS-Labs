@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Chapter 5</title>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&amp;display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="variables-palette-7.css">
+   <link rel="stylesheet" href="ch05-proj2.css">
+</head>
+<body>
+<form method="get" action="http://www.randyconnolly.com/tests/process.php">
+<fieldset>
+   <legend>Advanced Art Work Search</legend>
+
+   <div id="searchBox">
+      <input type="search" name="search" placeholder="Search titles" aria-label="Search titles">
+
+      <span id="subjectLabel">Subject:</span>
+      <span role="radiogroup" aria-labelledby="subjectLabel">
+         <label><input type="radio" name="subject" value="1"> History</label>
+         <label><input type="radio" name="subject" value="2"> Person</label>
+         <label><input type="radio" name="subject" value="3"> Landscape</label>
+      </span>
+
+      <select name="filter" aria-label="Genre">
+         <option value="0">Select Genre</option>
+         <option value="1">Baroque</option>
+         <option value="2">Renaissance</option>
+         <option value="3">Realism</option>
+      </select>
+
+      <button type="submit">Filter</button>
+   </div>
+
+   <div id="settingsBox">
+      <select name="actions" aria-label="Bulk actions">
+         <option value="0">Bulk Actions</option>
+         <option value="1">Archive</option>
+         <option value="2">Edit</option>
+         <option value="3">Delete</option>
+         <option value="4">Collection</option>
+      </select>
+
+      <button type="submit">Apply To All</button>
+   </div>
+
+   <div id="paintingBox">
+      <table>
+         <caption>Paintings</caption>
+         <thead>
+            <tr>
+               <th scope="col"><span class="visually-hidden">Select</span></th>
+               <th scope="col"><span class="visually-hidden">Image</span></th>
+               <th scope="col">Title</th>
+               <th scope="col">Artist</th>
+               <th scope="col">Year</th>
+               <th scope="col">Genre</th>
+               <th scope="col">Actions</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td><input type="checkbox" name="index[]" value="10" aria-label="Select Portrait of Alida Christina Assink"></td>
+               <td><img src="images/125010.jpg" alt="Portrait of Alida Christina Assink"></td>
+               <th scope="row"><cite>Portrait of Alida Christina Assink</cite></th>
+               <td>Kruseman, Jan</td>
+               <td>1833</td>
+               <td>Realism</td>
+               <td>
+                  <button type="button" class="primary"><img src="images/edit.png" alt="Edit"></button>
+                  <button type="button"><img src="images/archive.png" alt="Archive"></button>
+                  <button type="button"><img src="images/delete.png" alt="Delete"></button>
+               </td>
+            </tr>
+            <tr>
+               <td><input type="checkbox" name="index[]" value="20" aria-label="Select Portrait of William II, King of the Netherlands"></td>
+               <td><img src="images/125020.jpg" alt="Portrait of William II, King of the Netherlands"></td>
+               <th scope="row"><cite>Portrait of William II, King of the Netherlands</cite></th>
+               <td>Kruseman, Jan</td>
+               <td>1839</td>
+               <td>Realism</td>
+               <td>
+                  <button type="button" class="primary"><img src="images/edit.png" alt="Edit"></button>
+                  <button type="button"><img src="images/archive.png" alt="Archive"></button>
+                  <button type="button"><img src="images/delete.png" alt="Delete"></button>
+               </td>
+            </tr>
+            <tr>
+               <td><input type="checkbox" name="index[]" value="30" aria-label="Select Three girls from the Amsterdam Orphanage"></td>
+               <td><img src="images/130020.jpg" alt="Three girls from the Amsterdam Orphanage"></td>
+               <th scope="row"><cite>Three girls from the Amsterdam Orphanage</cite></th>
+               <td>Schwartze, Therese</td>
+               <td>1885</td>
+               <td>Realism</td>
+               <td>
+                  <button type="button" class="primary"><img src="images/edit.png" alt="Edit"></button>
+                  <button type="button"><img src="images/archive.png" alt="Archive"></button>
+                  <button type="button"><img src="images/delete.png" alt="Delete"></button>
+               </td>
+            </tr>
+            <tr>
+               <td><input type="checkbox" name="index[]" value="40" aria-label="Select The Windmill at Wijk bij Duurstede"></td>
+               <td><img src="images/127010.jpg" alt="The Windmill at Wijk bij Duurstede"></td>
+               <th scope="row"><cite>The Windmill at Wijk bij Duurstede</cite></th>
+               <td>Ruisdael, Jacob van</td>
+               <td>1670</td>
+               <td>Dutch Golden Age</td>
+               <td>
+                  <button type="button" class="primary"><img src="images/edit.png" alt="Edit"></button>
+                  <button type="button"><img src="images/archive.png" alt="Archive"></button>
+                  <button type="button"><img src="images/delete.png" alt="Delete"></button>
+               </td>
+            </tr>
+            <tr>
+               <td><input type="checkbox" name="index[]" value="50" aria-label="Select Morning Ride Along the Beach"></td>
+               <td><img src="images/128010.jpg" alt="Morning Ride Along the Beach"></td>
+               <th scope="row"><cite>Morning Ride Along the Beach</cite></th>
+               <td>Mauve, Anton</td>
+               <td>1871</td>
+               <td>Realism</td>
+               <td>
+                  <button type="button" class="primary"><img src="images/edit.png" alt="Edit"></button>
+                  <button type="button"><img src="images/archive.png" alt="Archive"></button>
+                  <button type="button"><img src="images/delete.png" alt="Delete"></button>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</fieldset>
+</form>
+</body>
+</html>
